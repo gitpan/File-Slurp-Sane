@@ -1,0 +1,71 @@
+{
+   "abstract" : "A simple, sane and efficient file slurper",
+   "author" : [
+      "Leon Timmermans <leont@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.011, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "File-Slurp-Sane",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.034"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Encode" : "0",
+            "Exporter" : "5.57",
+            "File::Spec::Functions" : "0",
+            "FileHandle" : "0",
+            "PerlIO::utf8_strict" : "0",
+            "perl" : "5.006",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "File::Slurp::Sane" : {
+         "file" : "lib/File/Slurp/Sane.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-file-slurp-sane at rt.cpan.org",
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=File-Slurp-Sane"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Leont/file-slurp-sane.git",
+         "web" : "https://github.com/Leont/file-slurp-sane"
+      }
+   },
+   "version" : "0.001"
+}
+
